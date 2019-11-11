@@ -44,7 +44,7 @@ calc <- powCalc(psi, powFun, n.iter = 10)
 pow <- powEx(calc, theta = 1, power = 0.9)
 
 ## another 900 (= 1000 - 100) iterations
-refine(pow)
+pow.fine <- refine(pow)
 }
 }
 
